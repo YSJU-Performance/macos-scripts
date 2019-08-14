@@ -12,7 +12,7 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Enable two button mouse
-defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
+defaults write com.apple.AppleMultitouchMouse MouseButtonMode -string "TwoButton"
 defaults write com.apple.driver.AppleHIDMouse Button2 -integer 2
 
 exit 0
